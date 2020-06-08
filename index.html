@@ -33,8 +33,10 @@
                 <ol>
                     <li>Примерно треть хлопьев измельчить в муку с помощью блендера</li>
                     <li>Сливочное масло и ложку корицы положить в кастрюльку и растопить на слабом огне</li>
-                    <li>Добавить мед, цедру лимона, овсяную муку и оставшиеся хлопья. Затем посолить, хорошенько перемешать и дать тесту немного настояться</li>
-                    <li>С помощью ложки выложить тесто на противень и отправить в духовку на 20 минут до зарумянивания и появления медового аромата</li>
+                    <li>Добавить мед, цедру лимона, овсяную муку и оставшиеся хлопья. Затем посолить, хорошенько
+                        перемешать и дать тесту немного настояться</li>
+                    <li>С помощью ложки выложить тесто на противень и отправить в духовку на 20 минут до зарумянивания и
+                        появления медового аромата</li>
                 </ol>
             </td>
 
@@ -64,12 +66,35 @@
         <tr>
 
             <td colspan="3" align="center" height="50px">
-                <form action="auth" method="post">
+                <form action="" method="">
+                    <fieldset>
 
-                    <input type="text" nmae="name" placeholder="Введите имя">
-                    <input type="password" nmae="password" placeholder="Введите пароль">
-                    <input type="submit">
-                    <input type="reset" value="Отчистить"> 
+                        <legend align="right">Форма обратной связи</legend>
+
+                        <table>
+
+                            <tr>
+                                <td><label for="name">Введите имя:</label></td>
+                                <td><input id="name" type="text" placeholder="Имя"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="mail">Введите Email:</label></td>
+                                <td><input id="mail" type="email" placeholder="Почта"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="phone">Введите телефон:</label></td>
+                                <td><input id="phone" type="text" placeholder="+375.."></td>
+                            </tr>
+                            <tr>
+                                <td><label for="message">Введите сообщение:</label></td>
+                                <td><textarea id="message" placeholder="Сообщение..." name="" cols="50"
+                                        rows="10"></textarea></td>
+                            </tr>
+                        </table>
+                        <button typr="submit">Отправить</button>
+
+                    </fieldset>
+
 
                 </form>
             </td>

@@ -1,28 +1,97 @@
 h1 {
 
-color: green;
-font-size: 42px;
-text-align: center;
+    color: green;
+    font-size: 42px;
+    text-align: center;
 
 }
 
 #podzagolovok {
 
-font-size:21px;
-color: white;
-background-color: green;
-padding: 20px;
+    font-size: 21px;
+    color: white;
+    background-color: green;
+    padding: 20px;
 
 }
 
 div {
 
-width:15%;
-float:right;
-background-color: gray;
-margin: 20px;
-padding: 20px;
-color: white;
-text-align: center;
+    width: 15%;
+    float: right;
+    background-color: gray;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+form fieldset {
+
+    width: 800px;
+
+}
+
+form legend,
+form label {
+
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+form button {
+
+    height: 50px;
+    font-size: 20px;
+    background: #199c19;
+    border-radius: 10px;
+    padding: 10px 15px;
+    line-height: 25px;
+    border: none;
+}
+
+
+form button:hover {
+
+    background: #0026ff;
+    color: #fff;
+
+}
+
+
+form input {
+
+    width: 250px;
+    height: 30px;
+
+}
+
+form textarea {
+
+    padding-top: 5px;
+    resize: vertical;
+
+}
+
+form input,
+form textarea {
+
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: Tahoma;
+    border: 2px solid #138a13;
+    padding-left: 10px;
+    box-shadow: 1px 1px 8px #898989;
+
+}
+
+form input:focus,
+form textarea:focus {
+
+    border: 2px solid #0026ff;
 
 }
